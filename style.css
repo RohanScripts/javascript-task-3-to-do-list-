@@ -7,4 +7,65 @@
 html,body{
     height: 100%;
     width: 100%;
+    background-color: black;
+    display: grid;
+    place-content: center;
+    font-family: "Poppins";
+}
+
+#container{
+    width: 550px;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+#header{
+    padding: 16px;
+    h1{
+        font-size: 36px;
+    }
+}
+
+#todos{
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}
+
+#userInput{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh ;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#addTaskButton{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh ;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    background-color: tomato;
+    color: white;
+    cursor: pointer;
+}
+
+.singleTodo{
+    padding: 16px;
+    border: 2px black solid;
+    color: black;
+    border-radius: 10px;
 }
