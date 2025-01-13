@@ -18,7 +18,7 @@ html,body{
     min-height: 500px;
     background-color: white;
     border-radius: 16px;
-    padding: 48px;
+    padding: 3em;
     display: flex;
     flex-direction: column;
     gap: 1vh;
@@ -117,4 +117,50 @@ html,body{
     display: flex;
     align-items: center;
     gap: 1vw;
+}
+
+@media (max-width: 480px){
+    #container{
+        width: 90%;
+        padding: 1rem;
+    }
+
+    #header{
+        h1{
+            font-size: 1.5rem;
+        }
+    }
+
+    #addTaskButton{
+       
+        outline: none;
+        border: none;
+        background-color: tomato;
+        color: white;
+        cursor: pointer;
+    }
+
+    #userInput{
+        width: 70%;
+        outline: none;
+        border: none;
+        border-radius: 15px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+
+    .editInput{
+        width: 50%;
+        outline: none;
+        border: none;
+        border-radius: 15px;
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+
+    .singleTodo{
+        padding: 0.5rem;
+    }
 }
