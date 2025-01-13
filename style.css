@@ -73,7 +73,7 @@ html,body{
     align-items: center;
     justify-content: space-between;
     button{
-        background-color: rgba(255, 0, 0, 0.767);
+        /* background-color: rgba(255, 0, 0, 0.767); */
         outline: none;
         border: none;
         padding-left: 1vw;
@@ -85,4 +85,36 @@ html,body{
         font-weight: 400;
         cursor: pointer;
     }
+}
+
+.buttonWrapper{
+    display: flex;
+    gap: 0.5vw;
+}
+
+.editButton{
+    background-color: tomato;
+}
+
+.deleteButton{
+    background-color: rgba(255, 0, 0, 0.795);
+}
+
+.editInput{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh ;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+#input{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
 }
